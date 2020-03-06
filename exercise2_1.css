@@ -1,0 +1,133 @@
+/*#circle {
+      width: 100px;
+      height: 100px;
+      background: red;
+      border-radius: 50%
+    }
+
+#moon {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 red;
+    }*/
+
+body {
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 1400px;
+	margin-top: 200px;
+}
+
+	#circle {
+      width: 200px;
+      height: 200px;
+      background: white;
+      border-radius: 50%;
+
+      /*flex: 1;*/
+    }
+
+    #moon {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 60px 10px 0 0 #e6e6e6;
+
+      /*flex: 1;*/
+    }
+
+    #moon1 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 40px 10px 0 0 #c7c7c7;
+
+      /*flex: 1;*/
+    }
+
+    #moon2 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 15px 10px 0 0 #7d7d7d;
+
+      /*flex: 1;*/
+    }
+
+
+@media (max-width: 1440px) {
+	#circle {
+      
+    }
+
+    #moon {
+      opacity: 0;
+    }
+
+    #moon1 {
+      opacity: 0;
+    }
+
+    #moon2 {
+      opacity: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+	#circle {
+      opacity: 0;
+    }
+
+    #moon {
+      opacity: 100;
+    }
+
+    #moon1 {
+      opacity: 0;
+    }
+
+    #moon2 {
+      opacity: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+	#circle {
+      opacity: 0;
+    }
+
+    #moon {
+      opacity: 0;
+    }
+
+    #moon1 {
+      opacity: 100;
+    }
+
+    #moon2 {
+      opacity: 0;
+    }
+}
+
+@media (max-width: 820px) {
+	#circle {
+      opacity: 0;
+    }
+
+    #moon {
+      opacity: 0;
+    }
+
+    #moon1 {
+      opacity: 0;
+    }
+
+    #moon2 {
+      opacity: 100;
+    }
+}
